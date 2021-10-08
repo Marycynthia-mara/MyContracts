@@ -2,7 +2,7 @@
 pragma solidity ^0.8.0;
 
 // contracts in the same file interact
-// here ContractA access the function of ContractB by defining an instance of ContractB
+// here ContractA access the function of ContractB by referenceing the inside of the function of ContractB "returnSomething()"
 contract ContractA {
     address contractBAddress;
     
